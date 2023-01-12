@@ -1,0 +1,14 @@
+{
+	"function": "copy_nbt",
+	"source": {
+		"type": "storage",
+		"source": "spell:"
+	},
+	"ops": [
+		{
+			"target": "pages",
+			"op": "replace",
+			"source": "empty_list"
+		}
+	]
+}

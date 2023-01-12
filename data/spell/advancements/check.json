@@ -1,0 +1,24 @@
+{
+	"criteria": {
+		"inventory_changed": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+						"scores": {
+							"TrySpellBook": {
+								"min": 1,
+								"max": 2147483647
+							}
+						}
+                    }
+                ]
+            }
+		}
+	},
+	"rewards": {
+		"function": "spell:check/"
+	}
+}
